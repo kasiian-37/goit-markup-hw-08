@@ -1,0 +1,35 @@
+.section-work {
+  padding-bottom: 94px;
+
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+}
+.work {
+  display: flex;
+}
+.work-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 370px;
+  height: 70px;
+  margin: 0px;
+  position: absolute;
+  bottom: 0px;
+
+  background: $secondary-background-color;
+  color: $primary-white-color;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
+  text-transform: uppercase;
+}
+
+.work-li {
+  position: relative;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
